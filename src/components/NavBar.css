@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    margin: 0 auto;
+    justify-content:center;
+    background-color: rgb(7,18,45);
+    position: sticky;
+    top:0;
+    color:rgb(234, 234, 234);
+}
+
+nav{
+    margin: 0 auto;
+    width: 70%;
+    justify-content:space-between;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 20px;
+}
+#logo{
+    display: flex;
+}
+#logo h2{
+    padding: 10px;
+}
+#logo img{
+    padding: 5px
+}
